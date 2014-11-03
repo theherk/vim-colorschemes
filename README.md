@@ -1,50 +1,88 @@
-**me:** Hi everyone, my name is Franco and I'm addicted to colorschemes
+**me:** Hi everyone, my name is TheHerk and I'm addicted to colorschemes.
 
-**everyone else:** *Hi Franco*
+**everyone else:** *Hi TheHerk*
 
-Vim colorschemes
+Forking Excuse
+==============
+
+The only reason I forked this was so that I could limit the color list to those that I like. That's all. Flazz obviously did the hard work of writing the harvesting routine. I am merely leaching off of his hard work and the hard work of the scheme creators.
+
+When I toggle colors, I don't want to get error messages or hurt my eyes.
+
+Vim Colorschemes
 ================
 
-one stop shop for vim colorschemes.
+For the original, see [flazz/vim-colorschemes]https://github.com/flazz/vim-colorschemes/).
 
-this is harvested from vim.org. only colorschemes downloaded in a single `.vim`
-file are included.
+Colors Included
+===============
 
-for hacking on vim.org harvesting see the branch [prep](https://github.com/flazz/vim-colorschemes/tree/prep).
++ 256-grayvim
++ 3dglasses
++ babymate
++ blue
++ bluedrake
++ brookstream
++ c64
++ cake16
++ candy
++ ChocolateLiquor
++ cobalt
++ CodeFactoryv3
++ codeschool
++ colorzone
++ cthulhian
++ darkblue2
++ darkburn
++ dawn
++ doorhinge
++ elda
++ flatlandia
++ fruidle
++ gruvbox
++ iceberg
++ kib_plastic
++ lucius
++ monokain
++ muon
++ newsprint
++ nuvola
++ obsidian2
++ oceandeep
++ peaksea
++ pleasant
++ prmths
++ pyte
++ seoul256-light
++ sift
++ softlight
++ solarized
++ soso
++ stingray
++ strange
++ summerfruit
++ summerfruit
++ taqua
++ telstar
++ tesla
++ thegoodluck
++ tolerable
++ tony-light
++ toothpik
++ trogdor
++ underwater
++ vilight
++ vividchalk
++ vydark
++ vylight
++ watermark
++ whitebox
++ winter
++ wombat
++ wombat256
++ wuye
++ xian
++ zen
++ zenburn
++ zenesque
 
-Installation
-------------
-
-Basic install - very simple (*nix or cygwin install)
-
-    mkdir ~/.vim
-    git clone https://github.com/flazz/vim-colorschemes.git ~/.vim
-
-if you [use vim + pathogen](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/)
-
-    cd ~/.vim
-    git submodule add https://github.com/flazz/vim-colorschemes.git bundle/colorschemes
-
-if you [use vim + vundle](https://github.com/gmarik/vundle)
-
-    " add to .vimrc
-    Plugin 'flazz/vim-colorschemes'
-    :PluginInstall
-
-if you aren't so clever just get all the files in `colors/*.vim` into
-  `~/.vim/colors`
-
-    # after downloading; unpacking; cd'ing
-    cp colors/* ~/.vim/colors
-
-Something missing? Fork!
-------------------------
-
-fork [this repo](http://github.com/flazz/vim-colorschemes); send a
-pull request!; I'll take it!
-
-- - -
-
-I'm a slave to aesthetics. If you are too, I hope this helps.
-
-[email](mailto:flazzarino@gmail.com)
