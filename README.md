@@ -1,7 +1,3 @@
-**me:** Hi everyone, my name is TheHerk and I'm addicted to colorschemes.
-
-**everyone else:** *Hi TheHerk*
-
 Forking Excuse
 ==============
 
